@@ -8,7 +8,10 @@
   </head>
   <body>
     <ul id="candidates">
-      
+      <form class="can-form" method="POST" action="https://bb-election-api.herokuapp.com/vote">
+        <input class= "name" type="hidden" value="id" name="id"><br>
+        <input class = "id" type="hidden" value="name" name="name">
+      </form>
     </ul>
   </body>
 </html>
